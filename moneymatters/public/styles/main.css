@@ -1,0 +1,165 @@
+body {
+  background-color: #f0f0f0;
+  }
+  
+header{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+  
+.grid {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  grid-gap: 2rem;
+}
+  
+.calculator {
+  border-radius: 10px;
+  padding: 2rem;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-align: left;
+  max-width: fit-content;
+  display: inline-block;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+  
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+  
+.info {
+  text-align: left;
+}
+  
+#interestForm {
+  background-color: #e6e6eb;
+  border-radius: 10px;
+  padding: 2rem;
+}
+  
+.calclist {
+  grid-column-start: 2;
+  text-align: center;
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.chart {
+  float: right;
+  width: 400px;
+  height: 400px;
+  margin-left: 2rem;
+}
+  
+.nav-item{
+  width: 200px;
+      
+}
+
+.calculatorList{
+      background-color: #ffffff;
+  box-shadow: 0 10px 10px rgba(16, 8, 8, 0.1);
+  width: fit-content;
+  text-align: center;
+  border-radius: 10px;
+  height: fit-content;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.result{
+    appearance: none;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0%;
+    border: 0cap;
+}
+
+input[type="number"]{
+      border-radius: 20px;
+      padding-left: 5px;
+      appearance: none;
+}
+
+input[type="range"] {
+  appearance: none;
+  background-color: transparent;
+  width: 35rem;
+  padding-top: 10px;
+}
+    
+input[type="range"]::-webkit-slider-runnable-track {
+  position: relative;
+  height: 8px;
+  background-color: rgb(5, 6, 5);
+  border-radius: 8px;
+  
+}
+
+input[type="range"]::-moz-range-track {
+  position: relative;
+  height: 8px;
+  background-color: rgb(35, 35, 35);
+  border-radius: 8px;
+}
+    
+input[type="range"]::-webkit-slider-thumb {
+  box-sizing: border-box;
+  appearance: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  box-sizing: border-box;
+  appearance: none;
+  position: relative;
+  background-color: purple;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+input[type="range"]::-moz-range-progress {
+  height: 8px;
+  background-color: orangered;
+  border-radius: 8px;
+}
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #0000005e, #a8a5ae, #100845);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

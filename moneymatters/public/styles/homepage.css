@@ -1,0 +1,63 @@
+.unordered{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.unordered a{
+    font-size: 1.2rem;
+}
+.calculators{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.single-card{
+    height: 18rem;
+    width: 20rem;
+    
+}
+.card-image{
+    display: flex;
+    justify-content: end;
+}
+.card-image img{
+    opacity: 0.5;
+}
+.card-image :hover{
+    opacity: 1;
+}
+.single-card-container :hover{
+    scale: 1;
+}
+.single-card:hover{
+    scale: 1.1;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #0000005e, #a8a5ae, #100845);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
